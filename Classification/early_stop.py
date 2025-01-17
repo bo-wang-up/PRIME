@@ -106,7 +106,7 @@ def main():
 
 
     model = model.cuda()
-    model.load_state_dict(torch.load('/home/wangbo/codes/pruning_example_code/record/TRAIN-nmnist-NMNIST_CONV-20250117-192757-train/params.pt'))
+    model.load_state_dict(torch.load('Pretrained_models/classification.pt'))
     print(next(model.parameters()).device)
 
     acc = test_early_exit(model, test_queue)
