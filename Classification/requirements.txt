@@ -1,6 +1,0 @@
-numpy==1.24.4
-PyYAML==6.0
-PyYAML==6.0.2
-spikingjelly==0.0.0.0.14
-tonic==1.2.6
-torch==2.0.0
