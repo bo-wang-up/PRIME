@@ -12,3 +12,6 @@ Follow the instructions in Inpainting, you can train and test PRIME on MNIST inp
 ## Pretrained models
 
 Preatrined models have been provided in folder 'Pretrained_models'
+
+## Acknowledgement
+Our code is adapted from the original [FSVAE](https://github.com/kamata1729/FullySpikingVAE) repository. We thank the authors for sharing their code.
