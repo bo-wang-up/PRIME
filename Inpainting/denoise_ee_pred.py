@@ -109,7 +109,7 @@ if __name__ == '__main__':
     glv.init(network_config, devs=[0])
 
     dataset_name = glv.network_config['dataset']
-    data_path = "/home/wangbo/codes/FullySpikingVAE/data" # specify the path of dataset
+    data_path = "./data" # specify the path of dataset
     
     # load MNIST dataset
     data_path = os.path.expanduser(data_path)
@@ -118,8 +118,7 @@ if __name__ == '__main__':
     net = fsvae.Pruning_FSVAE_EE()
     net = net.to(init_device)
     
-    # checkpoint = torch.load('checkpoint/lnv1_denoise_0.3/best.pth', map_location='cuda:1')
-    checkpoint = torch.load('/home/wangbo/codes/FullySpikingVAE/checkpoint/software_pruning_impainting_norm_like_rram_scale0.003/best.pth')
+    checkpoint = torch.load('Pretrained_models/inpainting.pth')
     net.load_state_dict(checkpoint)    
 
     test_sample(net, test_loader)
