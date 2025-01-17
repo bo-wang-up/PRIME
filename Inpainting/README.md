@@ -35,7 +35,7 @@ python denoise_ee_pred.py
 
 ```
 
-# 
+The pretrained models (Pretrained_models/inpainting.pth) has provided.
 
 
 
