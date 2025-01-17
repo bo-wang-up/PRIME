@@ -2,4 +2,13 @@
 
 ## Classification
 
-Follow the instructions in Classification, you can train and test PRIME on N-MNIST
+Follow the instructions in Classification, you can train and test PRIME on N-MNIST classification
+
+
+## Classification
+
+Follow the instructions in Inpainting, you can train and test PRIME on MNIST inpainting
+
+## Pretrained models
+
+Preatrined models have been provided in folder 'Pretrained_models'
