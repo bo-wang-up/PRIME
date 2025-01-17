@@ -1,0 +1,19 @@
+NMNIST_MLP:
+  fc_size:
+    - 2312 #2*34*34
+    - 250
+    - 250
+    - 10
+
+
+NMNIST_CONV:
+  conv_size:
+    - (2, 12, 5, 1, 1)
+    - (12, 64, 5, 1, 0)
+  fc_size:
+    - 2304
+    - 10
+  pooling_pos:
+    - 0
+    - 1
+
