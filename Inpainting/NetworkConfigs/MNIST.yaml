@@ -1,0 +1,18 @@
+Network:
+  epochs: 150
+  batch_size: 250 # default 250
+  n_steps: 16 # timestep default 16
+  dataset: "MNIST"
+  in_channels: 1
+  data_path: "/home/wangbo/codes/FullySpikingVAE/data"
+  lr: 0.001 #default 0.001
+  n_class: 10
+  latent_dim: 128
+  input_size: 32
+  model: "Pruning_FSVAE" # FSVAE or Pruning_FSVAE or Pruning_FSVAE_rram
+  k: 20 # multiplier of channel
+  scheduled: true # whether to apply scheduled sampling
+  loss_func: 'mmd' # mmd or kld
+
+
+  
