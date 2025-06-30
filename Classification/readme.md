@@ -23,4 +23,4 @@ python early_stop.py
 
 You can adjust the early stop threshold (ee_threshold) in ConvNet_ee of network.py file
 
-The pretrained models (Pretrained_models/classification.pt) has provided.
+The pretrained models (Pretrained_models/classification.pt) has been provided.
